@@ -1,0 +1,71 @@
+#hestory{
+    width: 100%;
+    padding: 200px 0;
+    h1{
+        font: bold 48px/1 "Sedgwick Ave Display";
+        color: orange;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    article{
+        width: 1180px;
+        height: 700px;
+        position: relative;
+        margin: 0 auto;
+        h2{
+            font: bold 24px/1 "arial";
+            color: #fff;
+            span{
+                font: bold 36px/1 "arial";
+                color: #fff;
+            }
+        }
+        p{
+            width: 580px;
+            font: 16px/1.2 "arial";
+            color: #fff;
+            float: left;
+            margin-right: 20px;
+        }
+        &:nth-of-type(4){        
+            height: 500px;
+            h2{
+                text-align: center;
+            }
+            p{
+                width: 1180px;
+            }     
+        }
+        &:nth-of-type(2),
+        &:nth-of-type(5){
+            h2{
+                position: absolute;
+                top: 0;               
+                right: 20%;
+            }
+            p{
+                position: absolute;
+                top: 100px;
+                right: 0;
+                
+            }
+            img{
+                height: 500px;
+                float: left;
+            }
+        }
+        &:nth-of-type(7){
+            height: 500px;
+        }
+        img{
+            width: 500px;
+            height: 400px;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+        }
+        b{
+            color: aqua;
+        }
+    }
+}
